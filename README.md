@@ -4,11 +4,16 @@ GWAS (VCF,PGS) risk calculator
 Pseudo code:
 
 Def VCFPGS():
-	Read VCF
-	Fetch PGS scores 
+	
+	READ VCF
+	
+	FETCH PGS scores 
+	
 		For each PGS extract snps from vcf and summation of beta’s x effect alleles
+	
 		Store risk for each PGS_id
-	Return report/visual of PGS for each cancer/trait 
+	
+	RETURN report/visual of PGS for each cancer/trait 
 
 
 To do:
