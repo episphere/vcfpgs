@@ -13,13 +13,13 @@ Def VCFPGS():
 	
 		For line in VCF.gz Decompress and READ
 		
-			IF line contains RSID or CHR:POS:Alt:REF then STORE line or WRITE Line to .txt file
+			IF line contains RSID or CHR:POS:Alt:REF in .score txt file then STORE line or WRITE Line to vcf.txt file
 		
 				ELSE: delete line from VCF
 				
 			For each PGS:
 			
-			Take Remaining lines in VCF and calculate summation of beta’s x effect for each PGS_ID
+			Take Remaining lines in VCF.txt and calculate summation of beta x effect for each PGS_ID
 	
 		Write risk for each PGS_id and Individual in VCF to output.file
 	
