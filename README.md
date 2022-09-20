@@ -27,4 +27,4 @@ Def VCFPGS():
 
 
 To do:
- 1. Determine how to read and parse gzipped VCF, while optimizing the memory required to decompress. 
+ 1. Determine how to read and parse gzipped VCF, while optimizing the memory required to decompress and store the relevant data. 
